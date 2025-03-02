@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+
+}
+.nav-logo{
+    height: 50px;  /*div ko height dene padti hai everytime because its a container */
+    width: 100px;
+}
+.logo{
+     background-size: cover; /*in CSS means that the background image will scale to cover the entire container while maintaining its aspect ratio. It may crop parts of the image to fit the container without distortion. */
+    height:50px;
+    width: 100%;
+    background-image: url(amazon_logo.png);
+}
+
+/**box2**/
+
+.add-first{
+    color: #CCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+   color: #FFFF;
+   font-size: 1rem;
+   margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+}
+
+/**box3**/
+
+.nav-search{
+    display: flex;
+    background-color: rgb(180, 146, 60);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    color: white;
+
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+     border: none;  /* as bydefault border hatana padta hai select ka */
+   }
+.search-icon{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+
+   }
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+   }
+
+   /**box4**/
+span{
+    font-size: 0.7rem;
+}
+
+   .nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+   }
+
+    /**box5 i isiliye likha coz styling bas icon pe hone chaiye**/
+
+.nav-cart i{
+font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**panel**/
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+   
+
+}
+.panel-ops1{
+    font-size: 0.9;
+    font-weight: 700;
+
+}
+
+/**hero section**/
+
+.hero-section{
+    background-image:url(hero_image.jpg) ;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+.hero-message{
+    background-color: #FFFF;
+    height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 25px;
+
+
+}
+.hero-message p{
+    color: black;
+    font-size: 0.85rem;
+    
+}
+.hero-message a{
+    color: #007185;
+}
+
+
+/**shop section**/
+
+
+.box{
+    height: 400px;
+    /* border: 2px solid black; */
+    width: 23%;
+    padding: 20px 0px 15px ;
+    margin-top: 15px;
+    background-color: white;
+
+  
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content p{
+    color: #007185;
+}
+.box-content span{
+    color: black;
+    font-weight:700;
+    font-size: large;
+}
+
+/**footer**/
+
+
+footer{
+    margin-top: 15px;
+}
+.footer-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+
+.footer-panel2{
+   background-color: #222f3d;
+   color: white;
+   height: 300px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.footer-panel3{
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover; /*in CSS means that the background image will scale to cover the entire container while maintaining its aspect ratio. It may crop parts of the image to fit the container without distortion. */
+    height:50px;
+    width: 100px;
+}
+
+
+.footer-panel4{
+    background-color: #0F1111;
+    
+    color: white;
+    height: 70px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 76px;
+
+}
+.pages{
+font-size: 0.7rem;
+text-align: center;
+padding-top: 25px;
+}
+
+.copyright{
+font-size: 0.7rem;
+text-align: center;
+padding-top: 5px;
+}
